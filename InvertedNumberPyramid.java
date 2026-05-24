@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Pattern3 {
+class InvertedNumberPyramid {
     public static void main(String s[]) {
         Scanner sc = new Scanner(System.in);
 

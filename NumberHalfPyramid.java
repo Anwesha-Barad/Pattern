@@ -1,13 +1,14 @@
 
-import java.util.*;
- class Pattern1{
+import java.util.Scanner;
+ class NumberHalfPyramid
+ {
     public static void main(String s[]){
         Scanner sc=new Scanner(System.in);
         System.out.print("enter number of star:");
         int n=sc.nextInt();
         for(int i=1;i<=n;i++){
            for(int j=1;j<=i;j++){
-             System.out.print(" * ");
+             System.out.print(j+" ");
            }
             System.out.println();
         }
@@ -18,10 +19,10 @@ import java.util.*;
 
  /*
  ...................
- *
- *  *
- *  *  *
- *  *  *  *
- *  *  *  *  *
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
  ''''''''''''''''''
   */
